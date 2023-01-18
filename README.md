@@ -2,8 +2,10 @@
 
 This is a fork of the publicly released Kobra Neo firmware version 1.3.3
 
-Performining minor adjustments for quality of life improvements. 
+Performining minor adjustments for quality of life improvements. Most of these are centered around Octoprint functionality.
 
-- Square wave stepping
-- 
+- Enable M117 codes to allow Octoprint to send messages to the LCD
+- Enable M73 codes to allow updating the LCD progress bar from Octoprint
+- Enabled Square wave stepping for print quality
+- version number will read 1.3.3a as a visual indicator of accepted firmware
 
