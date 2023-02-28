@@ -1,4 +1,4 @@
-# Anycubic Kobra Neo Tweaked Firmware
+# Anycubic Kobra Neo Firmware with LCD Messaging
 
 This is a fork of the publicly released Kobra Neo firmware version 1.3.3. It appears that newer firmwares from the vendor hinder the ability to output messages to the LCD.
 
