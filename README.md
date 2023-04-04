@@ -6,9 +6,17 @@ Performining minor adjustments for quality of life improvements. Most of these a
 
 - Enable M117 codes to allow Octoprint to send messages to the LCD
 - Enable M73 codes to allow updating the LCD progress bar from Octoprint
-- ~~Enabled Square wave stepping for print quality~~
+- ~~Enabled Square wave stepping for print quality~~ NOPE, turned that off
 - Linear Advance is **not** enabled
 - version number will read 1.3.3a as a visual indicator of accepted firmware
 
 This firmware contributes very little if anything to print quality.  If your prints are working as expected, and you're not looking to use Octoprint plugins to display custom messages, use the official firmware from Anycubic.
 
+## To Enable Code M73 in Prusa/Superslicer
+Under Expert Level Printer Settings, check the box next to 'Supports remaining times'
+
+## To Enable Code M177 in Cura
+Go to Extensions -> Post Processing -> Modify G-Code and add 'Display Progress on LCD'.  Play with 'Time Remaining', 'M177 - All printers', and 'Percentage' until you get the appropriate output.  I turned everything 'on' in my slicer.
+
+
+I have another page with recommended Start and End Gcodes at [KobraNeoProfiles](https://https://github.com/sclebo05/KobraNeoProfiles). These codes handle warmup, calling the bed mesch, and an initial test line before jumping into the main print. They will improve quality of life for any firmware version of this printer.
