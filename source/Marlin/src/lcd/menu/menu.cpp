@@ -469,20 +469,20 @@ void unload_load_filament(){
 			if(filament_cmd == FILA_IN) tft_string.set(GET_TEXT(MSG_MOVE_E_IN));
 			else if(filament_cmd == FILA_OUT) tft_string.set(GET_TEXT(MSG_MOVE_E_OUT));
 			tft_string.trim();
-			tft.add_text(tft_string.center(TFT_WIDTH),5,COLOR_YELLOW,tft_string);
+			tft.add_text(tft_string.center(TFT_WIDTH),5,COLOR_WHITE,tft_string);
 
 			tft.canvas(0, 120, TFT_WIDTH, 30);	
 			tft.set_background(COLOR_BACKGROUND);
 			 tft_string.set(GET_TEXT(MSG_PUSH_BUTTON));
 
 			tft_string.trim();
-			tft.add_text(tft_string.center(TFT_WIDTH),5,COLOR_YELLOW,tft_string);
+			tft.add_text(tft_string.center(TFT_WIDTH),5,COLOR_WHITE,tft_string);
 			
 			tft.canvas(0, 150, TFT_WIDTH, 30);	
 			tft.set_background(COLOR_BACKGROUND);
 			tft_string.set(GET_TEXT(MSG_STOP_LOAD_OR_UNLOAD));
 			tft_string.trim();
-			tft.add_text(tft_string.center(TFT_WIDTH),5,COLOR_YELLOW,tft_string);
+			tft.add_text(tft_string.center(TFT_WIDTH),5,COLOR_WHITE,tft_string);
 
 	}
 	ui.refresh(LCDVIEW_CALL_REDRAW_NEXT);

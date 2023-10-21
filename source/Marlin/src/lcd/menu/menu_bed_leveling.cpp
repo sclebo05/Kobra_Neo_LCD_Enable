@@ -251,7 +251,7 @@ void leveing_probeing()
 			tft.set_background(COLOR_BACKGROUND);
 			tft_string.set(GET_TEXT(MSG_LEVEING_HOME));
 			tft_string.trim();
-			tft.add_text(tft_string.center(TFT_WIDTH),5,COLOR_YELLOW,tft_string);
+			tft.add_text(tft_string.center(TFT_WIDTH),5,COLOR_WHITE,tft_string);
 		}
 		else if(ui.preheating_start == true && ui.preheating_stop == false)
 		{
@@ -278,21 +278,21 @@ void leveing_probeing()
 			tft.set_background(COLOR_BACKGROUND);
 			tft_string.set(GET_TEXT(MSG_WAIT_LEVELING_HEAT));
 			tft_string.trim();
-			tft.add_text(tft_string.center(TFT_WIDTH),5,COLOR_YELLOW,tft_string);
+			tft.add_text(tft_string.center(TFT_WIDTH),5,COLOR_WHITE,tft_string);
 		
 			tft.canvas(110, 100, 160, 30);
 			tft.set_background(COLOR_BACKGROUND); 
-			tft.add_text(0,0,COLOR_YELLOW, "E :");				
-			tft.add_text(30,0,COLOR_YELLOW, i16tostr3rj(hotend_currentTemperature));
-			tft.add_text(70,0,COLOR_YELLOW, "/"); 
-			tft.add_text(80,0,COLOR_YELLOW, i16tostr3rj(LEVELING_NOZZLE_TEMP));
+			tft.add_text(0,0,COLOR_WHITE, "E :");				
+			tft.add_text(30,0,COLOR_WHITE, i16tostr3rj(hotend_currentTemperature));
+			tft.add_text(70,0,COLOR_WHITE, "/"); 
+			tft.add_text(80,0,COLOR_WHITE, i16tostr3rj(LEVELING_NOZZLE_TEMP));
 
 			tft.canvas(110, 140, 160, 30);
 			tft.set_background(COLOR_BACKGROUND); 
-			tft.add_text(0,0,COLOR_YELLOW, "B :");				
-			tft.add_text(30,0,COLOR_YELLOW, i16tostr3rj(bed_currenttTemperature));
-			tft.add_text(70,0,COLOR_YELLOW, "/"); 
-			tft.add_text(80,0,COLOR_YELLOW, i16tostr3rj(LEVELING_BED_TEMP));
+			tft.add_text(0,0,COLOR_WHITE, "B :");				
+			tft.add_text(30,0,COLOR_WHITE, i16tostr3rj(bed_currenttTemperature));
+			tft.add_text(70,0,COLOR_WHITE, "/"); 
+			tft.add_text(80,0,COLOR_WHITE, i16tostr3rj(LEVELING_BED_TEMP));
 			
 		}
 		else if(ui.preheating_start == false && ui.preheating_stop == true)
@@ -304,7 +304,7 @@ void leveing_probeing()
 			tft_string.set(GET_TEXT(MSG_LEVEL_POP_UP));
 			tft_string.trim();
 			//tft.add_text(tft_string.center(TFT_WIDTH),110,COLOR_YELLOW,tft_string);
-			tft.add_text(tft_string.center(TFT_WIDTH),55,COLOR_YELLOW,tft_string);
+			tft.add_text(tft_string.center(TFT_WIDTH),55,COLOR_WHITE,tft_string);
 		}
 
 	}

@@ -559,7 +559,7 @@ void menu_motion() {
   //
  
   #if HAS_TEMPERATURE
-    SUBMENU(MSG_TEMPERATURE, menu_temperature);   //ÎÂ¶È·Åµ½¹¤¾ß
+    SUBMENU(MSG_TEMPERATURE, menu_temperature);   //ï¿½Â¶È·Åµï¿½ï¿½ï¿½ï¿½ï¿½
   #endif
   
  
@@ -567,7 +567,7 @@ void menu_motion() {
   END_MENU();
 }
 
-//********************µç»úÒÆ¶¯×¨ÓÃ**********************
+//********************ï¿½ï¿½ï¿½ï¿½Æ¶ï¿½×¨ï¿½ï¿½**********************
 void LCD_goto_manual_move(const_float_t scale,const AxisEnum axis) {
   ui.defer_status_screen();
   ui.manual_move.menu_scale = 0.1;
@@ -613,22 +613,22 @@ void preheat_to_move_E()
               tft.set_background(COLOR_BACKGROUND);
               tft_string.set(GET_TEXT(heat_MSG));
               tft_string.trim();
-              tft.add_text(0,5,COLOR_YELLOW,tft_string);     
+              tft.add_text(0,5,COLOR_WHITE,tft_string);     
               
               
               tft.canvas(110, 110, 160, 30);
               tft.set_background(COLOR_BACKGROUND);
               tft_string.set(GET_TEXT(heat_waitMSG));
               tft_string.trim();
-              tft.add_text(0,5,COLOR_YELLOW,tft_string);     
+              tft.add_text(0,5,COLOR_WHITE,tft_string);     
 
                
               tft.canvas(110, 140, 160, 30);
               tft.set_background(COLOR_BACKGROUND); 
-              tft.add_text(0,0,COLOR_YELLOW, "E :");              
-              tft.add_text(30,0,COLOR_YELLOW, i16tostr3rj(currentTemperature));
-              tft.add_text(70,0,COLOR_YELLOW, "/"); 
-              tft.add_text(80,0,COLOR_YELLOW, i16tostr3rj(targetTemperature));
+              tft.add_text(0,0,COLOR_WHITE, "E :");              
+              tft.add_text(30,0,COLOR_WHITE, i16tostr3rj(currentTemperature));
+              tft.add_text(70,0,COLOR_WHITE, "/"); 
+              tft.add_text(80,0,COLOR_WHITE, i16tostr3rj(targetTemperature));
           }     
           else if(currentTemperature>= 220)
           {
