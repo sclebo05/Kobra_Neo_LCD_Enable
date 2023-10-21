@@ -2,7 +2,7 @@
 
 This is a fork of the publicly released Kobra Neo firmware version 1.3.3. It appears that newer firmwares from the vendor hinder the ability to output messages to the LCD.
 
-Performining minor adjustments for quality of life improvements. Most of these are centered around Octoprint messaging functionality. I'm not sure why the vendor disabled these codes in newer firmwares.
+Performing minor adjustments for quality of life improvements. Most of these are centered around Octoprint messaging functionality. I'm not sure why the vendor disabled these codes in newer firmwares.
 
 - Enable M117 codes to allow Octoprint to send messages to the LCD (e.g. 'Heating ...' or 'Homing Z ...')
 - Enable M73 codes to allow updating the LCD progress bar from Octoprint. This is usually a Percentage, with remaining time.
