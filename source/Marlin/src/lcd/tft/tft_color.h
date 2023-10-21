@@ -71,7 +71,7 @@
 #define COLOR_DARK_PURPLE     0x9930  // #992380
 
 #ifndef COLOR_BACKGROUND
-  #define COLOR_BACKGROUND    0x20AC  // #1E156E
+  #define COLOR_BACKGROUND    0x0000   // #0x0000 
 #endif
 #ifndef COLOR_SELECTION_BG
   #define COLOR_SELECTION_BG  0x9930  // #992380
@@ -151,10 +151,10 @@
 #endif
 
 #ifndef COLOR_MENU_TEXT
-  #define COLOR_MENU_TEXT         COLOR_YELLOW
+  #define COLOR_MENU_TEXT         COLOR_WHITE
 #endif
 #ifndef COLOR_MENU_VALUE
-  #define COLOR_MENU_VALUE        COLOR_WHITE
+  #define COLOR_MENU_VALUE        COLOR_AQUA
 #endif
 
 #ifndef COLOR_SLIDER
