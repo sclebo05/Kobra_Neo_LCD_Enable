@@ -23,4 +23,8 @@ Go to Extensions -> Post Processing -> Modify G-Code and add 'Display Progress o
 ## To Enable Code M73 in Prusa/Superslicer
 Under Expert Level Printer Settings, check the box next to 'Supports remaining times'
 
+## Build instructions
+https://www.reddit.com/r/anycubic/comments/y2waxu/tutorial_how_to_build_anycubic_marlin_source_code/
+
+## Helpful Gcode Before and After Prints
 I have another page with recommended Start and End Gcodes at [KobraNeoProfiles](https://https://github.com/sclebo05/KobraNeoProfiles). These codes handle warmup messaging (e.g. 'Heating'), calling the bed mesh, and printing an initial test line before jumping into the main print. They will improve quality of life for any firmware version of this printer.
