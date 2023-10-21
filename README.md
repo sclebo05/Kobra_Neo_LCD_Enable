@@ -6,11 +6,16 @@ Performining minor adjustments for quality of life improvements. Most of these a
 
 - Enable M117 codes to allow Octoprint to send messages to the LCD (e.g. 'Heating ...' or 'Homing Z ...')
 - Enable M73 codes to allow updating the LCD progress bar from Octoprint. This is usually a Percentage, with remaining time.
+- Enable Quickhome
+- Alter LCD menu and background colors
+- Increase XYZ homing speed
+- Speed up auto bed levelling
+- Fix typos in messages text
 - Square Wave Stepping is **not** enabled
 - Linear Advance is **not** enabled
 - version number will read 1.3.3a as a visual indicator of accepted firmware
 
-This firmware contributes very little if anything to print quality.  If your prints are working as expected, and you're not looking to display slicer messages or allow Octoprint plugins to display custom messages, use the official firmware from Anycubic.
+This firmware contributes very little if anything to print quality.  If your prints are working as expected, and you're not looking to display slicer messages or allow Octoprint plugins to display custom messages, use the official firmware from Anycubic. 
 
 ## To Enable Code M73 in Cura
 Go to Extensions -> Post Processing -> Modify G-Code and add 'Display Progress on LCD'.  Play with 'Time Remaining', 'M177 - All printers', and 'Percentage' until you get the appropriate output.  I turned everything 'on' in my slicer.
