@@ -46,12 +46,12 @@
 namespace Language_en {
   constexpr uint8_t CHARSIZE              = 2;
   LSTR MSG_LEVEING_HOME             	  = _UxGT("Home");
-  LSTR MSG_WAIT_LEVELING_HEAT             = _UxGT("Wait Leveing heat");
+  LSTR MSG_WAIT_LEVELING_HEAT             = _UxGT("Heating up before leveling...");
   LSTR MSG_ABOUT                        	= _UxGT("About");
   LSTR LANGUAGE                           = _UxGT("English");
   LSTR LANGUAGE_2                         = _UxGT("English");
   LSTR heat_MSG                           = _UxGT("Nozzle Heating");  
-  LSTR heat_waitMSG                       = _UxGT("Please Wating...");  
+  LSTR heat_waitMSG                       = _UxGT("Please Wait...");  
   LSTR Tool_MSG                           = _UxGT("Tool");
   LSTR Operate_MSG                        = _UxGT("Operate the machine");    
   LSTR Home_motor                         = _UxGT("Home");
@@ -160,8 +160,8 @@ namespace Language_en {
   LSTR MSG_BED_LEVELING                   = _UxGT("Leveling");
   LSTR MSG_LEVEL_BED                      = _UxGT("Auto Leveling");
 	LSTR MSG_LEVEL_POP_UP                   = _UxGT("Auto Leveling...");
-	LSTR MSG_LEVEL_FAILD                    = _UxGT("Leveling Faild");     // "Level bed"
-	LSTR MSG_LEVEL_FINSH                    = _UxGT("Leveling done");     // "Level bed"
+	LSTR MSG_LEVEL_FAILD                    = _UxGT("Leveling Failed");     // "Level bed"
+	LSTR MSG_LEVEL_FINSH                    = _UxGT("Leveling Done");     // "Level bed"
   LSTR MSG_BED_TRAMMING                   = _UxGT("Bed Tramming");
   LSTR MSG_BED_TRAMMING_RAISE             = _UxGT("Adjust bed until the probe triggers.");
   LSTR MSG_BED_TRAMMING_IN_RANGE          = _UxGT("Corners within tolerance. Bed trammed.");
@@ -432,7 +432,7 @@ namespace Language_en {
   LSTR MSG_REFRESH                        = LCD_STR_REFRESH _UxGT("Refresh");
   LSTR MSG_INFO_SCREEN                    = _UxGT("Main Screen");
   LSTR MSG_PREPARE                        = _UxGT("Prepare");
-  LSTR MSG_TUNE                           = _UxGT("print setting");
+  LSTR MSG_TUNE                           = _UxGT("Print setting");
   LSTR MSG_POWER_MONITOR                  = _UxGT("Power monitor");
   LSTR MSG_CURRENT                        = _UxGT("Current");
   LSTR MSG_VOLTAGE                        = _UxGT("Voltage");
