@@ -31,7 +31,7 @@
 
 
 #define DEVICE_NAME             "Anycubic Kobra Neo"
-#define FIRMWARE_VER            "V1.3.3a"
+#define FIRMWARE_VER            "V1.3.3b"
 #define BUILD_VOLUME            "220*220*250 (mm)"
 #define TECH_SUPPORT            "github.com/sclebo05"
 
